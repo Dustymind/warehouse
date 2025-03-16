@@ -4,5 +4,3 @@ PKGDEP="alsa-lib ffmpeg gcc-runtime glibc libxcb lua-5.4 qt-5 systemd \
 	x11-lib xcb-util-keysyms"
 BUILDDEP="alsa-lib ffmpeg libcap libxcb qt-5 sdl2 systemd x11-lib"
 PKGDES="A TAS tool for GNU/Linux"
-
-ABTYPE=autotools
