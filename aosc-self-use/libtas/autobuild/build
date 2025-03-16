@@ -33,6 +33,6 @@ make
 
 abinfo "Installing libTAS ..."
 make install \
-prefix="$PKGDIR/usr" \
-libdir="$PKGDIR/usr/lib" \
--j1
+    prefix="$PKGDIR/usr" \
+    libdir="$PKGDIR/usr/lib" \
+    -j1
