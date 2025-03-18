@@ -1,0 +1,13 @@
+PKGNAME=libtas
+PKGSEC=games
+PKGDEP="alsa-lib ffmpeg gcc-runtime glibc libxcb lua-5.4 qt-5 systemd \
+        x11-lib xcb-util-keysyms"
+PKGDEP__AMD64=" \
+        ${PKGDEP} ffmpeg+32 sdl2+32 xcb-util-keysyms+32"
+BUILDDEP="alsa-lib ffmpeg libcap libxcb qt-5 sdl2 systemd x11-lib \
+        xcb-util-keysyms"
+BUILDDEP__AMD64=" \
+        ${BUILDDEP} devel-base+32 ffmpeg+32 sdl2+32 xcb-util-keysyms+32"
+PKGDES="A TAS tool for GNU/Linux"
+
+FAIL_ARCH="!(amd64|i486)"

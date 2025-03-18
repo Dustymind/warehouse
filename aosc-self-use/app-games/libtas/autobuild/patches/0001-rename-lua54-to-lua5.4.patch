@@ -1,0 +1,26 @@
+From d28ed3b58273e9bdac530f699ee1a1f0daabd391 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?multimode=5FLiu=20/=20=E8=87=AA=E5=A4=A7=E7=9A=84=E5=88=98?=
+ =?UTF-8?q?=E6=9F=90=E4=BA=BA?= <dustymind@foxmail.com>
+Date: Tue, 11 Mar 2025 12:46:34 +0800
+Subject: [PATCH] configure.ac: rename lua54 to lua5.4 (fix build on AOSC OS)
+
+---
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index f215fd72..a23b6b07 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -74,7 +74,7 @@ AS_IF([test "x$enable_i386_lib" != "xyes"], [
+     AC_SEARCH_LIBS([pthread_create], [pthread], [], [AC_MSG_ERROR(The pthread library is required!)])
+     AC_SEARCH_LIBS([cap_get_proc], [cap], [], [AC_MSG_ERROR(The libcap library is required!)])
+ 
+-    PKG_CHECK_MODULES([LIBLUA], [lua54],, [
++    PKG_CHECK_MODULES([LIBLUA], [lua5.4],, [
+         PKG_CHECK_MODULES([LIBLUA], [lua])
+     ])
+ 
+-- 
+2.48.1
+
