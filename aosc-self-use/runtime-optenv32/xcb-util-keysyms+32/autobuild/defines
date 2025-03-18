@@ -1,0 +1,8 @@
+PKGNAME=xcb-util-keysyms+32
+PKGDEP="xcb-util+32"
+BUILDDEP="devel-base+32"
+PKGSEC=x11
+PKGDES="X11 Client Side Utilities - Keysyms Libraries (32-bit x86 runtime)"
+
+RECONF=0
+ABHOST=optenv32
