@@ -1,4 +1,4 @@
-VER=1.4.6+git20250311
-COMMIT_ID="7eaa44c472bbc60d0fa6d45829e01f1a40c58b9b"
+VER=1.4.6+git20250318
+COMMIT_ID="045e71919cda6b18f34068f02cc6d5d2ff7074ae"
 SRCS="git::commit=$COMMIT_ID::https://github.com/clementgallet/libTAS"
 CHKSUMS="SKIP"
