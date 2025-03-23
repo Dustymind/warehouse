@@ -1,6 +1,4 @@
 VER=0.4.1
-#FIXME: FreeDesktop is migrating, using the Internet Archive for now.
-#SRCS="tbl::https://xcb.freedesktop.org/dist/xcb-util-keysyms-$VER.tar.xz"
-SRCS="tbl::https://web.archive.org/web/20241220085732/https://xcb.freedesktop.org/dist/xcb-util-keysyms-$VER.tar.xz"
+SRCS="tbl::https://xcb.freedesktop.org/dist/xcb-util-keysyms-$VER.tar.xz"
 CHKSUMS="sha256::7c260a5294412aed429df1da2f8afd3bd07b7cba3fec772fba15a613a6d5c638"
 CHKUPDATE="anitya::id=5168"
