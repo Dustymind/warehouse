@@ -1,0 +1,7 @@
+PKGNAME=libsfdo
+PKGDEP="glibc"
+BUILDDEP="meson"
+PKGSEC=x11
+PKGDES="collection of libraries which implement some of the freedesktop.org \
+	specifications"
+ABTYPE=meson

@@ -1,0 +1,8 @@
+PKGNAME=labwc
+PKGSEC=x11
+PKGDEP="cairo glib glibc libinput libpng librsvg libsfdo libxcb libxkbcommon \
+	libxml2 pango pixman wayland wlroots xorg-server xwayland swaybg"
+BUILDDEP="wayland-protocols meson ninja"
+PKGRECOM="foot wofi"
+PKGSUG="swaylock waybar xfce4-panel lxqt-panel"
+PKGDES="A Wayland window-stacking compositor"

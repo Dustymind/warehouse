@@ -1,0 +1,4 @@
+VER=0.8.4
+SRCS="git::commit=tags/$VER::https://github.com/labwc/labwc"
+CHKSUMS="SKIP"
+CHKUPDATE="anitya::id=176073"

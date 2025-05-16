@@ -1,0 +1,4 @@
+PKGNAME=labwc-tweaks
+PKGSEC=x11
+PKGDEP="glib libxml2 qt-6"
+PKGDES="A Qt configuration tool for labwc"

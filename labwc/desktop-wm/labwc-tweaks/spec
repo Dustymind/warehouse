@@ -1,0 +1,5 @@
+VER=0+git20250509
+SRCS="git::commit=692dbb8f23c4586b5ada95b3a34511c833aef963::https://github.com/labwc/labwc-tweaks"
+#SRCS="git::commit=tags/$VER::https://github.com/labwc/labwc-tweaks"
+CHKSUMS="SKIP"
+#CHKUPDATE="anitya::id=176073"
