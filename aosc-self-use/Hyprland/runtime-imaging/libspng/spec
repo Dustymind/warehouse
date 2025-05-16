@@ -1,0 +1,4 @@
+VER=0.7.4
+SRCS="git::commit=tags/v$VER::https://github.com/randy408/libspng"
+CHKSUMS="SKIP"
+CHKUPDATE="anitya::id=24289"

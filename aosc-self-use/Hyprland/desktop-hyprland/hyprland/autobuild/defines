@@ -1,0 +1,15 @@
+PKGNAME=hyprland
+PKGSEC=x11
+PKGDEP="cairo gcc-runtime glib glibc glslang libdisplay-info libdrm libglvnd libinput \
+	libliftoff x11-lib libxcb libxkbcommon mesa pango pixman re2 seatd systemd \
+	libtomlplusplus util-linux-runtime wayland wayland-protocols xcb-proto \
+	xcb-util xcb-util-errors xcb-util-image xcb-util-keysyms xcb-util-renderutil \
+	xcb-util-wm xwayland aquamarine hyprcursor hyprgraphics hyprland-qtutils \
+	hyprlang hyprutils hyprwayland-scanner"
+BUILDDEP="wayland-protocols cmake jq meson ninja hyprland-protocols x11-proto"
+PKGSUG="cmake cpio hyprland-protocols meson"
+PKGDES="A dynamic tiling Wayland compositor"
+
+ABTYPE=cmakeninja
+#FIXME: uwsm is not packaged yet.
+CMAKE_AFTER=(" -DNO_UWSM:STRING=true")

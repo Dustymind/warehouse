@@ -1,0 +1,6 @@
+PKGNAME=hyprlang
+PKGSEC=x11
+PKGDEP="gcc-runtime glibc hyprutils"
+PKGDES="Library for the hypr config language."
+
+ABTYPE=cmakeninja

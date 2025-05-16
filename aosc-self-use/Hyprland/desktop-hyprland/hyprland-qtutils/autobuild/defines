@@ -1,0 +1,6 @@
+PKGNAME=hyprland-qtutils
+PKGSEC=utils
+PKGDEP="gcc-runtime glibc qt-6 hyprutils hyprland-qt-support"
+PKGDES="Qt/QML utility apps for Hyprland"
+
+ABTYPE=cmakeninja

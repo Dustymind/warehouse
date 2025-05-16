@@ -1,0 +1,6 @@
+PKGNAME=libspng
+PKGSEC=libs
+PKGDEP="gcc-runtime glibc"
+PKGDES="An alternative of libpng"
+
+ABTYPE=cmakeninja

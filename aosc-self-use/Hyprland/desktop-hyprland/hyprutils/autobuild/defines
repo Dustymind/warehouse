@@ -1,0 +1,6 @@
+PKGNAME=hyprutils
+PKGSEC=utils
+PKGDEP="gcc-runtime glibc pixman"
+PKGDES="Hyprland utilities library used across the ecosystem"
+
+ABTYPE=cmakeninja

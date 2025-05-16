@@ -1,0 +1,6 @@
+PKGNAME=sdbus-cpp
+PKGSEC=libs
+PKGDEP="gcc-runtime glibc"
+PKGDES="High-level C++ D-Bus library"
+
+ABTYPE=cmakeninja

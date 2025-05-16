@@ -1,0 +1,4 @@
+VER=0.1.12
+SRCS="git::commit=tags/v$VER::https://github.com/hyprwm/hyprcursor"
+CHKSUMS="SKIP"
+CHKUPDATE="anitya::id=371850"

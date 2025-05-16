@@ -1,0 +1,6 @@
+PKGNAME=hyprcursor
+PKGSEC=libs
+PKGDEP="gcc-runtime glibc cairo libzip librsvg libtomlplusplus hyprlang"
+PKGDES="The hyprland cursor format, library and utilities."
+
+ABTYPE=cmakeninja

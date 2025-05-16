@@ -1,0 +1,8 @@
+PKGNAME=hyprland-protocols
+PKGSEC=libs
+PKGDEP="gcc-runtime glibc"
+PKGDES="Wayland protocol extensions for Hyprland"
+
+ABTYPE=meson
+ABHOST=noarch
+ABSPLITDBG=0

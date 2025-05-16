@@ -1,0 +1,4 @@
+VER=0.49.0
+SRCS="git::commit=tags/v$VER::https://github.com/hyprwm/hyprland"
+CHKSUMS="SKIP"
+CHKUPDATE="anitya::id=328560"

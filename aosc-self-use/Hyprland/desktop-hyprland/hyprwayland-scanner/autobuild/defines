@@ -1,0 +1,6 @@
+PKGNAME=hyprwayland-scanner
+PKGSEC=libs
+PKGDEP="gcc-runtime glibc pugixml"
+PKGDES="A Hyprland implementation of wayland-scanner, in and for C++."
+
+ABTYPE=cmakeninja

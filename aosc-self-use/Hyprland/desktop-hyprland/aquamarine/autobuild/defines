@@ -1,0 +1,7 @@
+PKGNAME=aquamarine
+PKGSEC=libs
+PKGDEP="gcc-runtime glibc libdisplay-info libdrm libinput mesa pixman seatd systemd \
+	wayland hyprutils hyprwayland-scanner"
+PKGDES="A Linux rendering backend library"
+
+ABTYPE=cmakeninja

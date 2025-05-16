@@ -1,0 +1,4 @@
+VER=0.1.0
+SRCS="git::commit=tags/v$VER::https://github.com/hyprwm/hyprland-qt-support"
+CHKSUMS="SKIP"
+CHKUPDATE="anitya::id=376560"

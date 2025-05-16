@@ -1,0 +1,7 @@
+PKGNAME=xdg-desktop-portal-hyprland
+PKGSEC=x11
+PKGDEP="gcc-runtime glibc hyprlang hyprutils inih pipewire qt-6 sdbus-cpp \
+	util-linux-runtime xdg-desktop-portal sdbus-cpp hyprwayland-scanner"
+PKGDES="xdg-desktop-portal backend for Hyprland"
+
+ABTYPE=cmakeninja

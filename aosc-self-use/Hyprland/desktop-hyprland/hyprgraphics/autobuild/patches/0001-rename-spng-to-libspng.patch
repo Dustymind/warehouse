@@ -1,0 +1,25 @@
+From 462caf7fef9c16f380d1a7c8baf4895a6d9ef256 Mon Sep 17 00:00:00 2001
+From: Dustymind <dustymind@aosc.io>
+Date: Wed, 14 May 2025 17:10:57 +0800
+Subject: [PATCH] rename spng to libspng
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 9657410..9b99d60 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -58,7 +58,7 @@ pkg_check_modules(
+   libjpeg
+   libwebp
+   libmagic
+-  spng)
++  libspng)
+ 
+ pkg_check_modules(
+   JXL
+-- 
+2.49.0
+

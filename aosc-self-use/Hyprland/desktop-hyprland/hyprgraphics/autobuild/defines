@@ -1,0 +1,7 @@
+PKGNAME=hyprgraphics
+PKGSEC=utils
+PKGDEP="cairo file gcc-runtime glibc libjpeg-turbo libjxl libwebp pixman zlib libspng \
+	hyprutils"
+PKGDES="Hyprland graphics / resource utilities"
+
+ABTYPE=cmakeninja

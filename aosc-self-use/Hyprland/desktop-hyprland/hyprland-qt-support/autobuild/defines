@@ -1,0 +1,7 @@
+PKGNAME=hyprland-qt-support
+PKGSEC=libs
+PKGDEP="gcc-runtime glibc qt-6 hyprlang"
+PKGDES="QML style provider for Hypr* QT apps"
+
+ABTYPE=cmakeninja
+CMAKE_AFTER=("-DINSTALL_QML_PREFIX=/lib/qt6/qml")
