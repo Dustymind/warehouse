@@ -1,3 +1,6 @@
+⚠⚠⚠ Archived and deprecated. ⚠⚠⚠  
+It's pointless.
+-----
 # Warehouse (W.I.P.)
 
 一个杂七杂八的仓库（仅存放脚本等）
